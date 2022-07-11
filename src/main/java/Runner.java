@@ -22,7 +22,7 @@ public class Runner {
             }
 
         int classGrade = 0;
-      //  for (int i = 0; i < list2.size(); i++) {
+
         for( Student student:list2){
             classGrade +=student.getGrade();
         }
