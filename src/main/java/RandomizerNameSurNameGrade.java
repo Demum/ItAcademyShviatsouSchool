@@ -15,7 +15,7 @@ public class RandomizerNameSurNameGrade {
     }
 
     public int randomGrade (){
-        String remainingLettersSurName = RandomStringUtils.random(1,false,true);
-        return Integer.parseInt(remainingLettersSurName);
+        String randomGrade = RandomStringUtils.random(1,false,true);
+        return Integer.parseInt(randomGrade);
     }
 }
